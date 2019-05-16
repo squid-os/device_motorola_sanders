@@ -25,8 +25,8 @@ $(call inherit-product, device/motorola/sanders/device.mk)
 # Inherit from Sanders-Vendor
 $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
 
-# Inherit some Common Rom Stuff.
-$(call inherit-product, vendor/aosip/config/common.mk)
+# Inherit some Common AOSiP Stuff.
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
