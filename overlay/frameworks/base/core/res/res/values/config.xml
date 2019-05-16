@@ -419,13 +419,13 @@
     <!-- Whether notify fingerprint client of successful cancelled authentication
     <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>-->
 
-    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+    <string name="config_deviceKeyHandlerLibs" translatable="false">
         <item>/system/priv-app/MotoActions/MotoActions.apk</item>
-    </string-array>
+    </string>
 
-    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+    <string name="config_deviceKeyHandlerClasses" translatable="false">
         <item>com.moto.actions.KeyHandler</item>
-</string-array>
+    </string>
 
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">true</bool>
