@@ -23,7 +23,7 @@ on property:sys.boot_completed=1
    setprop spectrum.support 1
 
 # Add kernel name
-   setprop persist.spectrum.kernel Unravel-v2
+   setprop persist.spectrum.kernel Unravel-2.0
 
 # Balance (default profile)
 on property:persist.spectrum.profile=0
