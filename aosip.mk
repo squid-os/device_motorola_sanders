@@ -47,12 +47,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/crosshatch/crosshatch:9/PQ1A.190105.004/5148680:user/release-keys
 VENDOR_BUILD_FINGERPRINT := google/crosshatch/crosshatch:9/PQ1A.190105.004/5148680:user/release-keys
 
-# GApps
-$(call inherit-product-if-exists, vendor/gapps/config.mk)
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-
-# PixelStyle
-$(call inherit-product-if-exists, vendor/pixelstyle/config.mk)
-
-AOSIP_BUILDTYPE := DerpFest
